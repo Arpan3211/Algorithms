@@ -4,7 +4,7 @@
 //----------------------Bubble sort------------------
 
 //(  Problem -- [ 1 ])
-/*
+
 function bblsort(arr){     
                   // declear veriable for swapping the element                 
     let swapped = false;     
@@ -33,7 +33,7 @@ function bblsort(arr){
 }
 
 console.log(bblsort([1,4,5,6,74,5,5447,6,5346,3,478,986,43,45,6,789,4,67,8,56,4,6,789,9,445,53]));
-*/
+
 //=================================================================================================
 
 
@@ -44,7 +44,7 @@ console.log(bblsort([1,4,5,6,74,5,5447,6,5346,3,478,986,43,45,6,789,4,67,8,56,4,
 //----------------insertion using normal method(while loop)---------------------
 
 //(  Problem -- [ 2 ])
-  /*
+  
 function insertionsort(arr){      
     let curr;                   
                 // loop for iterate on array
@@ -68,12 +68,12 @@ function insertionsort(arr){
 
 let arr = [12,43,54,56,7,457,79,745,687,64,34]
 console.log(insertionsort(arr));
-========================================================================================*/
+//=======================================================================================
 
 
 
 
-/*//----------insertion using for loop------------
+//----------insertion using for loop------------
 
 
 (  Problem -- [ 2(A) ])
@@ -92,14 +92,14 @@ function insertion(array){
 }
 let array  = [43, 6, 78, 28, 66];
 console.log(insertion(array));
-//====================================================================================*/
+//===================================================================================
 
 
 
 //----------------------------- selection sorting-------------------------------------
 
 //[Problem( 3 )]
-/*
+
 function selectionsort(arr) {
     let min_index;
     // one by one gating the min element as a min_index
@@ -121,7 +121,7 @@ function selectionsort(arr) {
     return arr;
 }
 let arr = [2, 4, 5, 7, 3, 4, 6, 26, 2, 362, 3];
-console.log(selectionsort(arr));  */
+console.log(selectionsort(arr));  
 //=======================================================
 
 
@@ -130,7 +130,7 @@ console.log(selectionsort(arr));  */
 
 //(problem[ 4 ]);
 
-/*
+
 function mergeSort(arr){
     let half = arr.length/2;
     if(arr.length<=1){
@@ -162,6 +162,6 @@ function merge(L,R){
 
 let arr = [3,4,5,2,3,52,34,63,2];
 
-console.log(mergeSort(arr)); */
+console.log(mergeSort(arr));
 
 //=====================================================================
